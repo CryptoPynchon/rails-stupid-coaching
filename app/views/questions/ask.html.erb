@@ -1,8 +1,14 @@
-<h1>Questions#ask</h1>
-<form action="/answer" method="get">
-  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-  <input type="text" name="query" placeholder="Ask away">
-  <input type="submit">
-</form>
+<div class="container">
+  <div class="content">
 
-<p>Find me in app/views/questions/ask.html.erb</p>
+    <a href="https://youtu.be/0lPQZni7I18?t=32">Question?</a>
+
+    <form action="/answer" method="get">
+      <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+      <input type="text" name="query" id="bar">
+      <input type="submit" id="button">
+    </form>
+
+    <p>Find me in app/views/questions/ask.html.erb</p>
+  </div>
+</div>
